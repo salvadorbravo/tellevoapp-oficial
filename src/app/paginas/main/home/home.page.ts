@@ -56,7 +56,6 @@ export class HomePage implements OnInit {
     })
   }
 
-
   // ======== AGREGAR O ACTUALIZAR VIAJE ========
   async addViaje(viaje?: Viaje) {
 

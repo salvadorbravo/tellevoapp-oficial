@@ -1,4 +1,4 @@
-<app-header title="Inicio"></app-header>
+<app-header [showMenu]="true" title="Inicio"></app-header>
 
 <ion-content>
 
@@ -24,6 +24,9 @@
             <strong>Asientos Disponibles: </strong> {{p.asientos}} <br>
           </div>
         </ion-label>
+        <ion-button slot="end">
+          <ion-icon name="checkmark"></ion-icon> Seleccionar
+        </ion-button>
       </ion-item>
 
       <!-- ========= OPCIONES ========= -->

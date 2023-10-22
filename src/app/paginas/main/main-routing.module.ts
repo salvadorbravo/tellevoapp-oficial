@@ -18,6 +18,10 @@ const routes: Routes = [
       }
     ]
   },
+  {
+    path: 'viajes-realizados',
+    loadChildren: () => import('./viajes-realizados/viajes-realizados.module').then( m => m.ViajesRealizadosPageModule)
+  },
 
 ];
 
